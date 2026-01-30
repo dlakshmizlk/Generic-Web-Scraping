@@ -587,3 +587,68 @@
 {"timestamp": "2026-01-29T17:05:07.499642", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 185}
 {"timestamp": "2026-01-29T17:05:07.499689", "level": "INFO", "logger": "url_scraper", "message": "Daily URL scraper completed successfully!", "module": "main", "function": "main", "line": 186}
 {"timestamp": "2026-01-29T17:05:07.499731", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 187}
+{"timestamp": "2026-01-30T16:26:17.452867", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 35}
+{"timestamp": "2026-01-30T16:26:17.453105", "level": "INFO", "logger": "url_scraper", "message": "Starting Daily URL Scraper", "module": "main", "function": "main", "line": 36}
+{"timestamp": "2026-01-30T16:26:17.453151", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 37}
+{"timestamp": "2026-01-30T16:26:17.453176", "level": "INFO", "logger": "url_scraper", "message": "Validating configuration...", "module": "main", "function": "main", "line": 41}
+{"timestamp": "2026-01-30T16:26:17.453197", "level": "INFO", "logger": "url_scraper", "message": "Configuration validated successfully", "module": "main", "function": "main", "line": 43}
+{"timestamp": "2026-01-30T16:26:17.453215", "level": "INFO", "logger": "url_scraper", "message": "\nInitializing components...", "module": "main", "function": "main", "line": 46}
+{"timestamp": "2026-01-30T16:26:17.453469", "level": "INFO", "logger": "url_scraper", "message": "Loaded 157 existing URLs from storage", "module": "storage", "function": "_load", "line": 42}
+{"timestamp": "2026-01-30T16:26:17.453647", "level": "INFO", "logger": "url_scraper", "message": "Loaded 72 existing URLs from storage", "module": "storage", "function": "_load", "line": 42}
+{"timestamp": "2026-01-30T16:26:17.453799", "level": "INFO", "logger": "url_scraper", "message": "\nCurrent storage stats:", "module": "main", "function": "main", "line": 79}
+{"timestamp": "2026-01-30T16:26:17.453836", "level": "INFO", "logger": "url_scraper", "message": "  JoinClassActions URLs: 157", "module": "main", "function": "main", "line": 80}
+{"timestamp": "2026-01-30T16:26:17.453862", "level": "INFO", "logger": "url_scraper", "message": "  Rankiteo URLs: 72", "module": "main", "function": "main", "line": 81}
+{"timestamp": "2026-01-30T16:26:17.453881", "level": "INFO", "logger": "url_scraper", "message": "  Total URLs tracked: 229", "module": "main", "function": "main", "line": 82}
+{"timestamp": "2026-01-30T16:26:17.453897", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 85}
+{"timestamp": "2026-01-30T16:26:17.453913", "level": "INFO", "logger": "url_scraper", "message": "Starting URL scraping...", "module": "main", "function": "main", "line": 86}
+{"timestamp": "2026-01-30T16:26:17.453927", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 87}
+{"timestamp": "2026-01-30T16:26:17.453943", "level": "INFO", "logger": "url_scraper", "message": "\n============================================================", "module": "joinclassactions_scraper", "function": "scrape", "line": 32}
+{"timestamp": "2026-01-30T16:26:17.453959", "level": "INFO", "logger": "url_scraper", "message": "Scraping JoinClassActions", "module": "joinclassactions_scraper", "function": "scrape", "line": 33}
+{"timestamp": "2026-01-30T16:26:17.453973", "level": "INFO", "logger": "url_scraper", "message": "============================================================", "module": "joinclassactions_scraper", "function": "scrape", "line": 34}
+{"timestamp": "2026-01-30T16:26:17.453989", "level": "INFO", "logger": "url_scraper", "message": "Parsing XML sitemap: https://joinclassactions.com/class_actions-sitemap1.xml", "module": "scraper", "function": "parse_xml_sitemap", "line": 361}
+{"timestamp": "2026-01-30T16:26:19.381853", "level": "INFO", "logger": "url_scraper", "message": "Found 200 URLs in sitemap", "module": "scraper", "function": "parse_xml_sitemap", "line": 379}
+{"timestamp": "2026-01-30T16:26:19.382011", "level": "INFO", "logger": "url_scraper", "message": "JoinClassActions: 200 URLs after lastmod filter, 132 URLs after keyword filter ('data-breach')", "module": "joinclassactions_scraper", "function": "scrape", "line": 46}
+{"timestamp": "2026-01-30T16:26:19.382051", "level": "INFO", "logger": "url_scraper", "message": "\n============================================================", "module": "rankiteo_scraper", "function": "scrape", "line": 136}
+{"timestamp": "2026-01-30T16:26:19.382074", "level": "INFO", "logger": "url_scraper", "message": "Scraping Rankiteo Blog", "module": "rankiteo_scraper", "function": "scrape", "line": 137}
+{"timestamp": "2026-01-30T16:26:19.382091", "level": "INFO", "logger": "url_scraper", "message": "============================================================", "module": "rankiteo_scraper", "function": "scrape", "line": 138}
+{"timestamp": "2026-01-30T16:26:19.382110", "level": "INFO", "logger": "url_scraper", "message": "Trying sitemap: https://blog.rankiteo.com/sitemap.xml", "module": "rankiteo_scraper", "function": "_try_sitemaps", "line": 47}
+{"timestamp": "2026-01-30T16:26:19.509365", "level": "INFO", "logger": "url_scraper", "message": "Trying sitemap: https://blog.rankiteo.com/sitemap_index.xml", "module": "rankiteo_scraper", "function": "_try_sitemaps", "line": 47}
+{"timestamp": "2026-01-30T16:26:19.520789", "level": "INFO", "logger": "url_scraper", "message": "Trying sitemap: https://blog.rankiteo.com/post-sitemap.xml", "module": "rankiteo_scraper", "function": "_try_sitemaps", "line": 47}
+{"timestamp": "2026-01-30T16:26:20.593734", "level": "INFO", "logger": "url_scraper", "message": "Trying sitemap: https://blog.rankiteo.com/blog-sitemap.xml", "module": "rankiteo_scraper", "function": "_try_sitemaps", "line": 47}
+{"timestamp": "2026-01-30T16:26:20.861372", "level": "INFO", "logger": "url_scraper", "message": "No sitemaps found", "module": "rankiteo_scraper", "function": "_try_sitemaps", "line": 79}
+{"timestamp": "2026-01-30T16:26:20.861478", "level": "INFO", "logger": "url_scraper", "message": "Falling back to homepage scraping", "module": "rankiteo_scraper", "function": "scrape", "line": 146}
+{"timestamp": "2026-01-30T16:26:20.861509", "level": "INFO", "logger": "url_scraper", "message": "Scraping homepage: https://blog.rankiteo.com", "module": "rankiteo_scraper", "function": "_scrape_homepage", "line": 92}
+{"timestamp": "2026-01-30T16:26:21.666842", "level": "INFO", "logger": "url_scraper", "message": "Found 30 URLs on homepage", "module": "rankiteo_scraper", "function": "_scrape_homepage", "line": 121}
+{"timestamp": "2026-01-30T16:26:21.666961", "level": "INFO", "logger": "url_scraper", "message": "Successfully scraped 30 URLs from Rankiteo Blog", "module": "rankiteo_scraper", "function": "scrape", "line": 149}
+{"timestamp": "2026-01-30T16:26:21.667898", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 109}
+{"timestamp": "2026-01-30T16:26:21.667954", "level": "INFO", "logger": "url_scraper", "message": "Processing results...", "module": "main", "function": "main", "line": 110}
+{"timestamp": "2026-01-30T16:26:21.667976", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 111}
+{"timestamp": "2026-01-30T16:26:21.668325", "level": "INFO", "logger": "url_scraper", "message": "No new URLs to add", "module": "storage", "function": "add_urls", "line": 108}
+{"timestamp": "2026-01-30T16:26:21.668373", "level": "INFO", "logger": "url_scraper", "message": "\nclassactions_sitemap:", "module": "main", "function": "main", "line": 127}
+{"timestamp": "2026-01-30T16:26:21.668396", "level": "INFO", "logger": "url_scraper", "message": "  Scraped: 132 URLs", "module": "main", "function": "main", "line": 128}
+{"timestamp": "2026-01-30T16:26:21.668415", "level": "INFO", "logger": "url_scraper", "message": "  New: 0 URLs", "module": "main", "function": "main", "line": 129}
+{"timestamp": "2026-01-30T16:26:21.668612", "level": "INFO", "logger": "url_scraper", "message": "Saved 76 URLs to storage", "module": "storage", "function": "_save", "line": 67}
+{"timestamp": "2026-01-30T16:26:21.668655", "level": "INFO", "logger": "url_scraper", "message": "Added 4 new URLs to storage", "module": "storage", "function": "add_urls", "line": 106}
+{"timestamp": "2026-01-30T16:26:21.668681", "level": "INFO", "logger": "url_scraper", "message": "\nrankiteo_blog:", "module": "main", "function": "main", "line": 144}
+{"timestamp": "2026-01-30T16:26:21.668703", "level": "INFO", "logger": "url_scraper", "message": "  Scraped: 30 URLs", "module": "main", "function": "main", "line": 145}
+{"timestamp": "2026-01-30T16:26:21.668721", "level": "INFO", "logger": "url_scraper", "message": "  New: 4 URLs", "module": "main", "function": "main", "line": 146}
+{"timestamp": "2026-01-30T16:26:21.668738", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 152}
+{"timestamp": "2026-01-30T16:26:21.668756", "level": "INFO", "logger": "url_scraper", "message": "SUMMARY", "module": "main", "function": "main", "line": 153}
+{"timestamp": "2026-01-30T16:26:21.668773", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 154}
+{"timestamp": "2026-01-30T16:26:21.668792", "level": "INFO", "logger": "url_scraper", "message": "Total URLs scraped: 162", "module": "main", "function": "main", "line": 155}
+{"timestamp": "2026-01-30T16:26:21.668810", "level": "INFO", "logger": "url_scraper", "message": "New URLs found: 4", "module": "main", "function": "main", "line": 156}
+{"timestamp": "2026-01-30T16:26:21.668830", "level": "INFO", "logger": "url_scraper", "message": "Total JoinClassActions URLs in storage: 157", "module": "main", "function": "main", "line": 157}
+{"timestamp": "2026-01-30T16:26:21.668849", "level": "INFO", "logger": "url_scraper", "message": "Total Rankiteo URLs in storage: 76", "module": "main", "function": "main", "line": 158}
+{"timestamp": "2026-01-30T16:26:21.668867", "level": "INFO", "logger": "url_scraper", "message": "Grand total URLs in storage: 233", "module": "main", "function": "main", "line": 159}
+{"timestamp": "2026-01-30T16:26:21.668885", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 162}
+{"timestamp": "2026-01-30T16:26:21.668905", "level": "INFO", "logger": "url_scraper", "message": "Sending email report...", "module": "main", "function": "main", "line": 163}
+{"timestamp": "2026-01-30T16:26:21.668922", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 164}
+{"timestamp": "2026-01-30T16:26:21.668940", "level": "INFO", "logger": "url_scraper", "message": "Found 4 new URL(s). Sending email...", "module": "main", "function": "main", "line": 167}
+{"timestamp": "2026-01-30T16:26:21.669138", "level": "INFO", "logger": "url_scraper", "message": "Connecting to SMTP server: smtp.gmail.com:587", "module": "email_sender", "function": "send_report", "line": 189}
+{"timestamp": "2026-01-30T16:26:22.950903", "level": "INFO", "logger": "url_scraper", "message": "Logging in to SMTP server", "module": "email_sender", "function": "send_report", "line": 196}
+{"timestamp": "2026-01-30T16:26:23.358766", "level": "INFO", "logger": "url_scraper", "message": "Sending email to teammarketinglnk@gmail.com, sgarad@zlk.com", "module": "email_sender", "function": "send_report", "line": 199}
+{"timestamp": "2026-01-30T16:26:25.815952", "level": "INFO", "logger": "url_scraper", "message": "Email sent successfully!", "module": "email_sender", "function": "send_report", "line": 202}
+{"timestamp": "2026-01-30T16:26:25.816178", "level": "INFO", "logger": "url_scraper", "message": " Email sent successfully!", "module": "main", "function": "main", "line": 171}
+{"timestamp": "2026-01-30T16:26:25.816270", "level": "INFO", "logger": "url_scraper", "message": "\n======================================================================", "module": "main", "function": "main", "line": 185}
+{"timestamp": "2026-01-30T16:26:25.816346", "level": "INFO", "logger": "url_scraper", "message": "Daily URL scraper completed successfully!", "module": "main", "function": "main", "line": 186}
+{"timestamp": "2026-01-30T16:26:25.816400", "level": "INFO", "logger": "url_scraper", "message": "======================================================================", "module": "main", "function": "main", "line": 187}
