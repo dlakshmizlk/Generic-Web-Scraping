@@ -168,11 +168,14 @@
     "https://joinclassactions.com/class_actions/mortgage-investors-group-data-breach/",
     "https://joinclassactions.com/class_actions/emc-water-llc-data-breach/",
     "https://joinclassactions.com/class_actions/cfd-investments-inc-data-breach/",
-    "https://joinclassactions.com/class_actions/bmp-america-inc-data-breach/"
+    "https://joinclassactions.com/class_actions/bmp-america-inc-data-breach/",
+    "https://joinclassactions.com/class_actions/visiting-nurse-association-of-texas-data-breach/",
+    "https://joinclassactions.com/class_actions/nova-biomedical-corporation-data-breach/",
+    "https://joinclassactions.com/class_actions/the-phia-group-llc-data-breach/"
   ],
   "metadata": {
     "created_at": "2026-01-15T22:53:41.951463",
-    "last_updated": "2026-02-03T16:27:43.065293",
-    "total_urls": 169
+    "last_updated": "2026-02-04T18:51:10.439988",
+    "total_urls": 172
   }
 }
