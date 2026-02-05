@@ -171,11 +171,14 @@
     "https://joinclassactions.com/class_actions/bmp-america-inc-data-breach/",
     "https://joinclassactions.com/class_actions/visiting-nurse-association-of-texas-data-breach/",
     "https://joinclassactions.com/class_actions/nova-biomedical-corporation-data-breach/",
-    "https://joinclassactions.com/class_actions/the-phia-group-llc-data-breach/"
+    "https://joinclassactions.com/class_actions/the-phia-group-llc-data-breach/",
+    "https://joinclassactions.com/class_actions/d-h-smith-company-inc-data-breach/",
+    "https://joinclassactions.com/class_actions/time-base-corporation-d-b-a-tbc-consoles-data-breach/",
+    "https://joinclassactions.com/class_actions/sellars-absorbent-materials-data-breach/"
   ],
   "metadata": {
     "created_at": "2026-01-15T22:53:41.951463",
-    "last_updated": "2026-02-04T18:51:10.439988",
-    "total_urls": 172
+    "last_updated": "2026-02-05T17:06:38.430070",
+    "total_urls": 175
   }
 }
