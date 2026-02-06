@@ -174,11 +174,14 @@
     "https://joinclassactions.com/class_actions/the-phia-group-llc-data-breach/",
     "https://joinclassactions.com/class_actions/d-h-smith-company-inc-data-breach/",
     "https://joinclassactions.com/class_actions/time-base-corporation-d-b-a-tbc-consoles-data-breach/",
-    "https://joinclassactions.com/class_actions/sellars-absorbent-materials-data-breach/"
+    "https://joinclassactions.com/class_actions/sellars-absorbent-materials-data-breach/",
+    "https://joinclassactions.com/class_actions/alpine-ear-nose-and-throat-data-breach/",
+    "https://joinclassactions.com/class_actions/office-peeps-inc-data-breach/",
+    "https://joinclassactions.com/class_actions/gs-engineering-data-breach/"
   ],
   "metadata": {
     "created_at": "2026-01-15T22:53:41.951463",
-    "last_updated": "2026-02-05T17:06:38.430070",
-    "total_urls": 175
+    "last_updated": "2026-02-06T18:07:11.284805",
+    "total_urls": 178
   }
 }
