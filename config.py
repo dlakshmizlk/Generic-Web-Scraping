@@ -17,14 +17,18 @@ DATA_DIR.mkdir(exist_ok=True)
 LOGS_DIR.mkdir(exist_ok=True)
 CONFIG_DIR.mkdir(exist_ok=True)
 
-# Data files
+# Data files - ADD TWO NEW LINES
 JOINCLASSACTIONS_URLS_FILE = DATA_DIR / "joinclassactions_urls.json"
 RANKITEO_URLS_FILE = DATA_DIR / "rankiteo_urls.json"
+DEXPOSE_URLS_FILE = DATA_DIR / "dexpose_urls.json"  # NEW
+CYBERSECGURU_URLS_FILE = DATA_DIR / "cybersecguru_urls.json"  # NEW
 
-# Scraping configuration
+# Scraping configuration - ADD TWO NEW SOURCES
 SOURCES = {
     "classactions_sitemap": "https://joinclassactions.com/class_actions-sitemap1.xml",
     "rankiteo_blog": "https://blog.rankiteo.com",
+    "dexpose": "https://www.dexpose.io",  # NEW
+    "cybersecguru": "https://thecybersecguru.com",  # NEW
 }
 
 # Request configuration
